@@ -7,6 +7,8 @@
 //////////
 //Run a basic analysis in an ROI using LS 9 SR
 /////////
+//
+//Meryl's edits -- simple but effective
 var ROI = ee.Geometry.Polygon([[72.2244482434705,33.715875382880505], [73.17682556280644,33.715875382880505],[73.17682556280644,34.482889694297526],[72.2244482434705,34.482889694297526],[72.2244482434705,33.715875382880505]])
 Map.addLayer(ROI, {}, "ROI")
 Map.centerObject(ROI)
